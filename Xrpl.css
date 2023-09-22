@@ -1,16 +1,19 @@
-/* Reset some default styles */
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color and font family */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 
-/* Style the header */
+
 header {
     background-color: #222;
     color: #fff;
@@ -22,7 +25,7 @@ header h1 {
     font-size: 36px;
 }
 
-/* Style the main content */
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -31,13 +34,13 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style section headings */
+
 h2 {
     font-size: 24px;
     margin-top: 20px;
 }
 
-/* Style form labels and input fields */
+
 label {
     display: block;
     margin-top: 10px;
@@ -53,7 +56,7 @@ input[type="number"] {
     border-radius: 4px;
 }
 
-/* Style the submit button */
+
 button[type="submit"] {
     background-color: #007BFF;
     color: #fff;
@@ -63,7 +66,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-/* Style the transaction history list */
+
 #transaction-history {
     list-style: none;
 }
@@ -75,7 +78,7 @@ button[type="submit"] {
     background-color: #f9f9f9;
 }
 
-/* Style the balance section */
+
 #balance-section {
     margin-bottom: 20px;
 }
@@ -84,7 +87,7 @@ button[type="submit"] {
     font-size: 18px;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
     main {
         padding: 10px;
